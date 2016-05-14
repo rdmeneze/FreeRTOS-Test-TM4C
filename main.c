@@ -15,8 +15,6 @@ volatile unsigned long ulHighFrequencyTimerTicks = 0UL;
 void ledBlink(void *pvParameters);
 uint32_t ledBlinkST(void *pvParameters);
 
-
-
 //*****************************************************************************
 //
 // Blink the on-board LED.
