@@ -93,7 +93,7 @@
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs.813147200" name="Libraries (-l)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs" valueType="libs">
 									<listOptionValue builtIn="false" value="driver"/>
 								</option>
-								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other.1146536837" name="Other linker flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other" value="-Wl,--static,--gc-sections,-T../TM4C.ld -mthumb -mcpu=cortex-m4" valueType="string"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other.1146536837" name="Other linker flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other" value="-Wl,--static,--gc-sections,-T../startup_src/TM4C.ld -mthumb -mcpu=cortex-m4" valueType="string"/>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input.2082946589" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -117,7 +117,8 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="TivaWare|FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_5.c|FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_4.c|FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.c|FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_2.c|FreeRTOS/FreeRTOS/Source/portable/GCC/ARM_CM3_MPU|FreeRTOS/FreeRTOS/Source/portable/GCC/ARM_CM3|FreeRTOS/FreeRTOS/Demo|FreeRTOS/FreeRTOS-Plus|StellarisWare" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="startup_src|TivaWare|FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_5.c|FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_4.c|FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.c|FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_2.c|FreeRTOS/FreeRTOS/Source/portable/GCC/ARM_CM3_MPU|FreeRTOS/FreeRTOS/Source/portable/GCC/ARM_CM3|FreeRTOS/FreeRTOS/Demo|FreeRTOS/FreeRTOS-Plus|StellarisWare" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="startup_src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -222,7 +223,7 @@
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs.1363149219" name="Libraries (-l)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs" valueType="libs">
 									<listOptionValue builtIn="false" value="driver"/>
 								</option>
-								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other.1289594438" name="Other linker flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other" value="-Wl,--static,--gc-sections,-T../TM4C.ld -mthumb -mcpu=cortex-m4" valueType="string"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other.1289594438" name="Other linker flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other" value="-Wl,--static,--gc-sections,-T../startup_src/TM4C.ld -mthumb -mcpu=cortex-m4" valueType="string"/>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input.816695212" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -246,7 +247,8 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="TivaWare|FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_5.c|FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_4.c|FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.c|FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_2.c|FreeRTOS/FreeRTOS/Source/portable/GCC/ARM_CM3_MPU|FreeRTOS/FreeRTOS/Source/portable/GCC/ARM_CM3|FreeRTOS/FreeRTOS/Demo|FreeRTOS/FreeRTOS-Plus|StellarisWare" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="startup_src|TivaWare|FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_5.c|FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_4.c|FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.c|FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_2.c|FreeRTOS/FreeRTOS/Source/portable/GCC/ARM_CM3_MPU|FreeRTOS/FreeRTOS/Source/portable/GCC/ARM_CM3|FreeRTOS/FreeRTOS/Demo|FreeRTOS/FreeRTOS-Plus|StellarisWare" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="startup_src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
