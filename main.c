@@ -23,11 +23,10 @@ uint32_t ledBlinkST(void *pvParameters);
 int main(void)
 {
     volatile unsigned long ulLoop;
-	uint32_t dwCounter = 0;
 	uint32_t dwTimerHandle;
 
-    uint8_t bCounter;
-    const struct STGPIOConfig*    pUserLedCfg;
+    //uint8_t bCounter;
+    //const struct STGPIOConfig*    pUserLedCfg;
 
     SetSystemClock();
     TTimerCfgTimeOut( 100 );
@@ -63,7 +62,7 @@ void ledBlink(void *pvParameters)
 
 		vTaskDelay(  500 / portTICK_PERIOD_MS  );
 	}
-	return;
+	//return;
 }
 
 /*****************************************************************************/
