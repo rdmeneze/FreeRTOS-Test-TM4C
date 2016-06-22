@@ -33,7 +33,7 @@ int main(void)
     BrdLedsInit();
 
 
-    TTimerRegisterCallBack( 10 * TTIMER_1SEC_INTERVAL, TimerPeriodic,  ledBlinkST , NULL, &dwTimerHandle );
+    TTimerRegisterCallBack( TTIMER_1SEC_INTERVAL, TimerPeriodic,  ledBlinkST , NULL, &dwTimerHandle );
     TTimerStart( dwTimerHandle );
 
 
@@ -48,10 +48,12 @@ int main(void)
     vTaskStartScheduler();
 
     while( 1 );
+
 }
 
 
 /*****************************************************************************/
+
 void ledBlink(void *pvParameters)
 {
 	uint32_t dwCount = 0;
@@ -66,6 +68,7 @@ void ledBlink(void *pvParameters)
 }
 
 /*****************************************************************************/
+
 uint32_t ledBlinkST(void *pvParameters)
 {
 	static uint32_t dwCount = 0;
@@ -74,6 +77,7 @@ uint32_t ledBlinkST(void *pvParameters)
 
 	return 0;
 }
+
 /*****************************************************************************/
 
 

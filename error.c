@@ -10,5 +10,15 @@ extern void __error__(char *pcFilename, uint32_t ulLine)
 
 void vApplicationStackOverflowHook( TaskHandle_t xTask, char *pcTaskName )
 {
-    return;
+    /*
+    char *name;
+    TaskHandle_t *pxT;
+
+    name = pcTaskName;
+    pxT  = &xTask;
+    */
+    while(1);
 }
+
+//vApplicationTickHook
+
